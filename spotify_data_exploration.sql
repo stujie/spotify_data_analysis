@@ -82,3 +82,9 @@ SELECT streaming_platform, COUNT(*) AS total_rows
 FROM Spotify_Data_Analysis.dbo.combined
 GROUP BY streaming_platform
 ORDER BY total_rows desc
+
+-- see distinct countries
+SELECT country_streamed, COUNT(*) AS total_rows
+FROM Spotify_Data_Analysis.dbo.combined
+GROUP BY country_streamed
+ORDER BY total_rows desc
