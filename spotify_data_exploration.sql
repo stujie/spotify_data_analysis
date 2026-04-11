@@ -34,7 +34,7 @@ ADD year VARCHAR(4),
 	time_ust VARCHAR(8)
 
 -- extract year, month, day, and time (ust) from time_stamp
-UPDATE Spotify_Data_Analysis.dbo.combined
+UPDATE Spotify_Data_Analysis..combined
 SET year = SUBSTRING(time_stamp,1,4),
     month = SUBSTRING(time_stamp,6,2),
     day = SUBSTRING(time_stamp,9,2),
@@ -79,12 +79,12 @@ ORDER BY ID
 
 -- see distinct platforms 
 SELECT streaming_platform, COUNT(*) AS total_rows
-FROM Spotify_Data_Analysis.dbo.combined
+FROM Spotify_Data_Analysis..combined
 GROUP BY streaming_platform
 ORDER BY total_rows desc
 
 -- see distinct countries
 SELECT country_streamed, COUNT(*) AS total_rows
-FROM Spotify_Data_Analysis.dbo.combined
+FROM Spotify_Data_Analysis..combined
 GROUP BY country_streamed
 ORDER BY total_rows desc
