@@ -24,11 +24,12 @@ Microsoft Excel, Python, Microsoft SQL
   - Interesting find: Rankings for music can change depending on metric (minutes played, songs listened, etc.) used.
 
 ### Data Visualization
-- Created and uploaded a [Tableau Board](https://public.tableau.com/shared/KRQGW8RCZ?:display_count=n&:origin=viz_share_link)
+![Tableau Board](https://github.com/stujie/spotify_data_analysis/blob/74a79ec92e40fb271443676abaf3ba17caf2d897/TableauBoard.png)
+
+Here is an alternative link to my [Tableau Public page](https://public.tableau.com/shared/4K5PC238M?:display_count=n&:origin=viz_share_link).
 
 
-
-
+***
 
 ## Resources Used
 Throughout this journey, I had a lot to learn. Here are the videos/articles that helped me the most!
