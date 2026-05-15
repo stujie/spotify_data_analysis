@@ -6,16 +6,16 @@ ORDER BY 1
 
 -- (1): how much data can be used
 -- see how many tracks there are in total
-SELECT COUNT(*)
+SELECT COUNT(*) AS total_num_tracks
 FROM Spotify_Data_Analysis..combined
 
 -- see how many tracks are songs
-SELECT COUNT(*)
+SELECT COUNT(*) AS song_tracks
 FROM Spotify_Data_Analysis..combined
 WHERE track_title is not null
 
 -- see how many tracks are not songs
-SELECT COUNT(*)
+SELECT COUNT(*) AS not_song_tracks
 FROM Spotify_Data_Analysis..combined
 WHERE track_title is null
 
@@ -89,8 +89,8 @@ ranked_songs AS (
 
 -- select song with rank number 1 for EACH COUNTRY
 SELECT
-	country_streamed,
-	track_title
+	country_streamed AS country,
+	track_title AS song_name
 FROM ranked_songs
 WHERE rn = 1;
 
