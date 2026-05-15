@@ -3,3 +3,7 @@
 *.json
 *.xlsx
 *.pdf
+
+# Visualization #
+#################
+*.twbr
