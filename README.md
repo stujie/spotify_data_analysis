@@ -21,6 +21,6 @@ Microsoft Excel, Python, Microsoft SQL
   - As around 900 rows were non-song related data, these rows will be discarded in the data cleaning stage of this process.
 - Next, choice summaries of the data were explored in order to better understand the variables and structure of the dataset. 
   - Interesting find: Rankings for music can change depending on metric (minutes played, songs listened, etc.) used.
-- Lastly, I explored some less intuitive variables to understand the cohesivity of the dataset more.
 
 ### Data Visualization
+- Tableau:
