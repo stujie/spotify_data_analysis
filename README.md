@@ -1,5 +1,5 @@
 # A Decade of Music: Analyzing Spotify Data
-This project explores the past 10 years of my personal Spotify listening data. 
+This project explores the past 10 years of my personal Spotify music data. 
 
 All processes & files created/used for sourcing, cleaning, exploration, analysis, and visualization will be highlighted and documented here.
 
@@ -16,5 +16,12 @@ Microsoft Excel, Python, Microsoft SQL
 - Transformed received JSON files into an XLSX file
   - Wrote [combine_json.py](https://github.com/stujie/spotify_data_analysis/blob/main/combine_json.py) to consolidate all JSON files into a single file to make JSON to XLSX process simpler.
 
-### Data Cleaning
-- 
+### Data Exploration
+- Created an [MS SQL](https://github.com/stujie/spotify_data_analysis/blob/main/spotify_data_exploration.sql) script to explore data before deeper analysis.
+- First, dataset was briefly reviewed to understand how much of the raw data could be used.
+  - As around 900 rows were non-song related data, these rows will be discarded in the data cleaning stage of this process.
+- Next, choice summaries of the data were explored in order to better understand the variables and structure of the dataset. 
+  - Interesting find: Rankings for music can change depending on metric (minutes played, songs listened, etc.) used.
+
+### Data Visualization
+- Tableau:
