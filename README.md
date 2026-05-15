@@ -24,7 +24,8 @@ Microsoft Excel, Python, Microsoft SQL
   - Interesting find: Rankings for music can change depending on metric (minutes played, songs listened, etc.) used.
 
 ### Data Visualization
-- Tableau:
+- Created and uploaded a [Tableau Board](https://public.tableau.com/shared/KRQGW8RCZ?:display_count=n&:origin=viz_share_link)
+
 
 
 
