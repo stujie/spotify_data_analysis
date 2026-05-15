@@ -49,7 +49,7 @@ ORDER BY total_minutes_listened DESC
 -- (3) top songs through the years
 -- top listened to songs (by minutes)
 SELECT TOP 25 
-track_title,  track_album_name, ROUND((SUM(ms_played)/60000),0) as total_minutes_listened
+track_title,  track_album_name AS artist, ROUND((SUM(ms_played)/60000),0) as total_minutes_listened
 FROM Spotify_Data_Analysis..combined
 WHERE track_title is not null
 GROUP BY track_title, track_album_name
