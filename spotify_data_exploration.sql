@@ -1,3 +1,7 @@
+-- spotify_data_exploration.sql
+-- author: Stutie Banerjie
+-- desc: data exploration script
+
 -- (0): getting started
 -- see full database
 SELECT *
