@@ -25,3 +25,13 @@ Microsoft Excel, Python, Microsoft SQL
 
 ### Data Visualization
 - Tableau:
+
+
+
+
+## Resources Used
+Throughout this journey, I had a lot to learn. Here are the videos/articles that helped me the most!
+### Videos
+* [Youtube: Alex the Analyst](https://www.youtube.com/playlist?list=PLUaB-1hjhk8H48Pj32z4GZgGWyylqv85f)
+### Articles
+* [Geeks For Geeks: Types of Data Visualization](https://www.geeksforgeeks.org/r-language/types-of-data-visualization/)
