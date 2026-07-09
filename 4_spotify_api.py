@@ -39,3 +39,7 @@ def get_token():
 
 token = get_token()
 print(token)
+
+# step 3: construct header for future requests
+def get_auth_header(token):
+    return {"Authorization": "Bearer" + token}
