@@ -1,9 +1,13 @@
+# Environemental Variables #
+############################
+*.env
+
 # Data #
 ########
 *.json
 *.xlsx
 *.pdf
-*.env
+
 
 # Visualization #
 #################
