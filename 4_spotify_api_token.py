@@ -3,6 +3,7 @@ import os
 import base64
 from requests import post
 import json
+import spotipy
 
 # step 1: load environment variables
 load_dotenv()
@@ -43,3 +44,5 @@ print(token)
 # step 3: construct header for future requests
 def get_auth_header(token):
     return {"Authorization": "Bearer" + token}
+
+# step 4: test spotipy library
