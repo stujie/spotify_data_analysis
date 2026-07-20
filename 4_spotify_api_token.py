@@ -45,4 +45,5 @@ print(token)
 def get_auth_header(token):
     return {"Authorization": "Bearer" + token}
 
-# step 4: test spotipy library
+# step 4: try to find information about a song
+
