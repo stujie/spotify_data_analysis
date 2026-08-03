@@ -9,7 +9,11 @@ Below is an overview of the software & languages used alongside a step-by-step b
 Will be updated as project progress is made.
 
 ### Tech Used
-Microsoft Excel, Python, Microsoft SQL
+Microsoft Excel, Python, Microsoft SQL, Jupyter Notebook
+
+## Part 1: Spotify Provided Data
+
+### Goal:
 
 ### Data Sourcing
 - Requested and downloaded personal my personal history directly from [Spotify](https://support.spotify.com/us/article/data-rights-and-privacy-settings/).
@@ -28,7 +32,23 @@ Microsoft Excel, Python, Microsoft SQL
 
 Here is an alternative link to my [Tableau Public page](https://public.tableau.com/shared/4K5PC238M?:display_count=n&:origin=viz_share_link).
 
+## Part 2: API Sourced Data
 
+### Goal:
+
+### Data Cleaning
+
+- I started data cleaning by unifying all column headers to be the same format.
+- Next, I altered column names with vague titles, combined similar categorical data types, and changed column data types in order to make it easier to understand and use in the future.
+- I performed a few logic checks throughout the data in order tot make sure there was no impossible data inputs.
+  - For example, I made sure that there were no songs that were listened to for negative seconds.
+- Following, I removed tracks that were audiobooks and podcasts (not songs).
+- Lastly, I identified a list of [unique songs](https://github.com/stujie/spotify_data_analysis/blob/main/5_find_unique_songs.ipynb) I've listened to. This was to understand which tracks I would have to find track analysis data for.
+
+### Data Sourcing
+- Due to Spotify's API deprecation, I turned [Rapid API Track Analysis API](https://rapidapi.com/soundnet-soundnet-default/api/track-analysis) to collect audio analysis data for each of the unique songs I've listened to.
+- I wrote a [python script]() to automate my API Calls and save the received data in a csv file.
+  
 ***
 
 ## Resources Used
