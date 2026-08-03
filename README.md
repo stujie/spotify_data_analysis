@@ -9,7 +9,9 @@ Below is an overview of the software & languages used alongside a step-by-step b
 Will be updated as project progress is made.
 
 ### Tech Used
-Microsoft Excel, Python, Microsoft SQL
+Microsoft Excel, Python, Microsoft SQL, Jupyter Notebook
+
+## Part 1: Spotify Provided Data
 
 ### Data Sourcing
 - Requested and downloaded personal my personal history directly from [Spotify](https://support.spotify.com/us/article/data-rights-and-privacy-settings/).
@@ -28,6 +30,10 @@ Microsoft Excel, Python, Microsoft SQL
 
 Here is an alternative link to my [Tableau Public page](https://public.tableau.com/shared/4K5PC238M?:display_count=n&:origin=viz_share_link).
 
+## Part 2: API Sourced Data
+
+### Data Exploration
+- From the the official data Spotify provided me, I was able to identify a list of [unique songs](https://github.com/stujie/spotify_data_analysis/blob/main/5_find_unique_songs.ipynb) I've listened to. 
 
 ***
 
