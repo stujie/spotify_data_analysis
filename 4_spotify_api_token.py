@@ -1,3 +1,7 @@
+# spotify_api_token.py
+# author: Stutie Banerjie
+# descripion: receive spotify auth token
+
 from dotenv import load_dotenv 
 import os
 import base64
